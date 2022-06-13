@@ -75,3 +75,10 @@ console.log(Math.floor(3 / 2));
 
 const demo = [1, 15, 56, 589, 62, 1]; // new Array[...]
 console.log(demo);
+console.log(demo[0]);
+console.log(demo[3]);
+for (let index = 0; index < demo.length; index++) {
+  //const element = demo[index];
+}
+
+console.log(demo.length); //façon simple d'indiquer la taille du tableau

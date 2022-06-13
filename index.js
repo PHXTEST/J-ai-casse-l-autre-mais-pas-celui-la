@@ -74,11 +74,17 @@ console.log(Math.floor(3 / 2));
 //TABLEAUX
 
 const demo = [1, 15, 56, 589, 62, 1]; // new Array[...]
-console.log(demo);
-console.log(demo[0]);
-console.log(demo[3]);
-for (let index = 0; index < demo.length; index++) {
-  //const element = demo[index];
-}
 
-console.log(demo.length); //façon simple d'indiquer la taille du tableau
+
+//console.log(demo);
+//console.log(demo[0]);
+//console.log(demo[3]); //très peu utilisée car boucle forof
+//for (let index = 0; index < demo.length; index++) {
+//  console.log(demo[index]);
+//}
+
+//console.log(demo.length); //façon simple d'indiquer la taille du tableau
+
+for (const element of demo) {
+  console.log(element);
+}
